@@ -109,7 +109,7 @@ public class ImageChartUtils {
             XYLineAndShapeRenderer numericRenderer;
 
             if(type != null && type.equals("1")) {
-                numericRenderer = new XYLineAndShapeRenderer(false, true); //line
+                numericRenderer = new XYLineAndShapeRenderer(true, false); //line
             } else {
                 numericRenderer = new XYLineAndShapeRenderer(false, true); //scatter
             }
